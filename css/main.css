@@ -1,0 +1,25 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    max-width: 60%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+img{
+    width: 24em;
+    
+}
+
+@media(min-width: 800px){
+    section{
+        flex-direction: row
+    }
+}
